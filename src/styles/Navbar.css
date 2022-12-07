@@ -1,0 +1,84 @@
+.header {
+  background-color: #fff;
+  --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.042vw;
+  align-items: center;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+}
+.header .h-item {
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+}
+.header .h-auth {
+  color: black;
+  display: flex;
+}
+.header .h-auth .h-auth-btn {
+  border: none;
+  padding: 0.3vw 0;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+}
+.header .h-auth .h-login {
+  border-right: 0.052vw solid #ccc;
+  padding-right: 0.26vw;
+}
+.header .h-auth .h-register {
+  padding-left: 0.26vw;
+}
+.header .h-auth .myprofile-con .my-profile-select-con {
+  padding: 0.52vw;
+}
+.header .h-auth .myprofile-con .myprofile-displayvalue {
+  border-radius: 50%;
+  color: #fff;
+  background-color: #6c757d;
+  padding: 1.042vw;
+  cursor: pointer;
+}
+.header .h-auth .myprofile-con .my-profile-item {
+  padding: 0.26vw;
+  border-radius: 0.26vw;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+}
+.header .h-auth .myprofile-con .my-profile-item a {
+  text-decoration: none;
+  color: black;
+}
+.header .h-auth .myprofile-con .my-profile-item:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+.header .h-auth .dropdown-toggle::after {
+  display: none;
+}
+.header .search-display {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 2.042vw;
+  padding: 0.521vw;
+}
+.header .search-display .place-con {
+  display: flex;
+  align-items: center;
+  padding: 0.521vw 1.042vw;
+  border-right: 0.052vw solid #ccc;
+}
+.header .search-display .date-con {
+  padding: 0.521vw 1.042vw;
+  border-right: 0.052vw solid #ccc;
+}
+.header .search-display .pass-con {
+  padding: 0.521vw 1.042vw;
+  border-right: 0.052vw solid #ccc;
+}
+.header .search-display .modify-search-con {
+  padding: 0.521vw 1.042vw;
+}
+.header .search-display .s-d-item {
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+}/*# sourceMappingURL=Navbar.css.map */

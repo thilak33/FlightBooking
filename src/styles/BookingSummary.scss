@@ -1,0 +1,122 @@
+.book-sum-con{
+    --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+    margin: 5.208vw 10.417vw;
+    .bsc-title{
+        margin-bottom: 1.042vw;
+        font:normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+    }
+    .fpc-con{
+        padding: 2.084vw;
+        background-color: #fff;
+        margin-bottom: 2.083vw;
+    }
+    .ts-item{
+        font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+    }
+    .ts-i-xl{
+        font:normal normal 300 1.667vw/1.667vw var(--font-Jotia);
+    }
+    .ts-i-s{
+        font:normal normal normal 0.677vw/0.677vw var(--font-Jotia);
+    }
+    .ts-i-m{
+        font:normal normal normal 0.833vw/0.989vw var(--font-Jotia);
+    }
+    .ts-i-l{
+        font:normal normal normal 0.99vw/1.342vw var(--font-Jotia);
+    }
+    .ts-i-l-b{
+        font:normal normal 300 1.25vw/1.458vw var(--font-Jotia);
+    }
+    .ts-i-m-p{
+        padding-left: 0.521vw;
+    }
+    .ts-arrow{
+        margin:0 1.042vw;
+    }
+    .table-h{
+        border-top: 0.052vw solid #ccc;
+        border-bottom: 0.052vw solid #ccc;
+        padding: 1.042vw 0;
+        margin-bottom: 1.042vw;
+    }
+    // .table-d{
+    //     border-bottom: 0.052vw solid #ccc;
+    //     padding: 0.26vw 0;
+    // }
+    .ts-i-h-p{
+        margin-bottom: 2.083vw;
+    }
+    .fd-con{
+        margin-bottom: 3.125vw;
+        .fd-con-header{
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 1.042vw;
+        }
+        .fd-con-body{
+            display: grid;
+            grid-template-columns: 15% 30% 15% 20% 20%;
+        }
+    }
+    .pd-con{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        border-bottom: 0.052vw solid #ccc;
+        padding-bottom: 1.042vw;
+        margin-bottom: 3.042vw;
+    }
+    .cd-con{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+.ts-header{
+    .ts-title{
+        font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        padding-bottom: 0.521vw;
+        border-bottom: 0.052vw solid #ccc;
+        color: #555555;
+    }
+}
+// color: #65707b;
+.ts-body{
+    padding-top: 3.125vw;
+    // .fd-con{
+
+    // }
+}
+// small flight
+// font-size: 12px;
+// margin: 0;
+// line-height: 20px;
+
+// 
+
+.ts-footer{
+    padding: 2.084vw;
+    background-color: #fff;
+    .pa-con{
+        margin-top: 1.043vw;
+        display: flex;
+        justify-content: space-between;
+        border-top: 0.052vw solid #ccc;
+        border-bottom: 0.052vw solid #ccc;
+        padding: 1.043vw 0;
+
+    }
+}
+.prcd-btn{
+    padding: 1.423vw 5.208vw;
+    background-color: #fff;
+    border: 0.052vw solid #ccc;
+    border-radius: 0.26vw;
+    font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+    margin-top: 2.083vw;
+}
+
+/////////////////////////
+
+// .try-con{
+    
+// }

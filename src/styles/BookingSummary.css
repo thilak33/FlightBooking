@@ -1,0 +1,102 @@
+.book-sum-con {
+  --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+  margin: 5.208vw 10.417vw;
+}
+.book-sum-con .bsc-title {
+  margin-bottom: 1.042vw;
+  font: normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+}
+.book-sum-con .fpc-con {
+  padding: 2.084vw;
+  background-color: #fff;
+  margin-bottom: 2.083vw;
+}
+.book-sum-con .ts-item {
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+}
+.book-sum-con .ts-i-xl {
+  font: normal normal 300 1.667vw/1.667vw var(--font-Jotia);
+}
+.book-sum-con .ts-i-s {
+  font: normal normal normal 0.677vw/0.677vw var(--font-Jotia);
+}
+.book-sum-con .ts-i-m {
+  font: normal normal normal 0.833vw/0.989vw var(--font-Jotia);
+}
+.book-sum-con .ts-i-l {
+  font: normal normal normal 0.99vw/1.342vw var(--font-Jotia);
+}
+.book-sum-con .ts-i-l-b {
+  font: normal normal 300 1.25vw/1.458vw var(--font-Jotia);
+}
+.book-sum-con .ts-i-m-p {
+  padding-left: 0.521vw;
+}
+.book-sum-con .ts-arrow {
+  margin: 0 1.042vw;
+}
+.book-sum-con .table-h {
+  border-top: 0.052vw solid #ccc;
+  border-bottom: 0.052vw solid #ccc;
+  padding: 1.042vw 0;
+  margin-bottom: 1.042vw;
+}
+.book-sum-con .ts-i-h-p {
+  margin-bottom: 2.083vw;
+}
+.book-sum-con .fd-con {
+  margin-bottom: 3.125vw;
+}
+.book-sum-con .fd-con .fd-con-header {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 1.042vw;
+}
+.book-sum-con .fd-con .fd-con-body {
+  display: grid;
+  grid-template-columns: 15% 30% 15% 20% 20%;
+}
+.book-sum-con .pd-con {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  border-bottom: 0.052vw solid #ccc;
+  padding-bottom: 1.042vw;
+  margin-bottom: 3.042vw;
+}
+.book-sum-con .cd-con {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.ts-header .ts-title {
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  padding-bottom: 0.521vw;
+  border-bottom: 0.052vw solid #ccc;
+  color: #555555;
+}
+
+.ts-body {
+  padding-top: 3.125vw;
+}
+
+.ts-footer {
+  padding: 2.084vw;
+  background-color: #fff;
+}
+.ts-footer .pa-con {
+  margin-top: 1.043vw;
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.052vw solid #ccc;
+  border-bottom: 0.052vw solid #ccc;
+  padding: 1.043vw 0;
+}
+
+.prcd-btn {
+  padding: 1.423vw 5.208vw;
+  background-color: #fff;
+  border: 0.052vw solid #ccc;
+  border-radius: 0.26vw;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  margin-top: 2.083vw;
+}/*# sourceMappingURL=BookingSummary.css.map */

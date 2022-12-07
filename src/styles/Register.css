@@ -1,0 +1,123 @@
+.register-con {
+  --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  padding: 3vw 20.208vw;
+}
+.register-con .lr-f-title {
+  margin-bottom: 1.042vw;
+  font: normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+}
+.register-con .lr-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 1.302vw;
+  padding: 2.042vw;
+}
+.register-con .lr-form .cred-partition-con {
+  margin-bottom: 1.042vw;
+}
+.register-con .lr-form .part-con {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.042vw;
+  padding-top: 2.084vw;
+  border-bottom: 0.052vw solid #ccc;
+}
+.register-con .lr-form .btn-con {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.084vw;
+}
+.register-con .lr-form .lr-input-item {
+  font: normal normal normal 0.764vw/0.766vw var(--font-Jotia);
+  border: 0.052vw solid #ccc;
+  border-radius: 0.26vw;
+  margin-bottom: 1.042vw;
+  margin-right: 1.043vw;
+  padding: 0.521vw;
+}
+.register-con .lr-form .lr-input-item:last-child {
+  margin-right: 0;
+}
+.register-con .lr-form .alert-border {
+  border: 1px solid #b50000;
+}
+.register-con .lr-form .lr-input {
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  width: 30.652vw;
+  height: 4.167vw;
+}
+.register-con .lr-form .lr-mutli-input {
+  width: 14.805vw;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  height: 4.167vw;
+}
+.register-con .lr-form .lr-mutli-input-mr {
+  width: 14.805vw;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  height: 4.167vw;
+  margin-right: 1.042vw;
+}
+.register-con .lr-form .lr-dropdown {
+  height: 3.991vw;
+  width: 14.95vw;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  display: flex;
+  align-items: center;
+}
+.register-con .lr-form .dropdown-toggle::after {
+  display: none;
+}
+.register-con .lr-form .dd-menu {
+  height: 10vw;
+  width: 29.687vw;
+  overflow-y: scroll;
+}
+.register-con .lr-form .live-dd {
+  width: 29.687vw;
+}
+.register-con .lr-form .state-item {
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+}
+.register-con .lr-form .gender-title {
+  margin-bottom: 0.542vw;
+}
+.register-con .radio-heading {
+  margin-bottom: 1.043vw;
+}
+.register-con .select-radio-con {
+  display: flex;
+  margin-bottom: 1.042vw;
+}
+.register-con .select-radio-con .select-radio {
+  padding: 0;
+  margin-right: 0.521vw;
+}
+.register-con .select-radio-con .select-radio .select-input {
+  margin: 0;
+}
+.register-con .select-radio-con .select-radio .select-label {
+  margin-left: 0.521vw;
+}
+.register-con .select-radio-con .select-radio:last-child {
+  margin-right: 0;
+}
+.register-con .select-radio-con .form-check-input:checked {
+  background-color: rgb(96, 96, 96);
+  border-color: rgb(96, 96, 96);
+}
+.register-con .lr-btn {
+  --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  border: 0.052vw solid #ccc;
+  padding: 0.625vw 1.042vw;
+  border-radius: 0.26vw;
+  background-color: transparent;
+  width: 20.833vw;
+  height: 3.991vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}/*# sourceMappingURL=Register.css.map */

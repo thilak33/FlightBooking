@@ -1,0 +1,77 @@
+.fetch-flight-con {
+  --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+  padding: 3vw 5vw 0;
+}
+.fetch-flight-con .ff-title {
+  margin-bottom: 1.042vw;
+  font: normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+}
+.fetch-flight-con .ff-body-con {
+  display: flex;
+  justify-content: space-between;
+}
+.fetch-flight-con .ff-body-con .ffc-s-item {
+  font: normal normal normal 0.729vw/0.729vw var(--font-Jotia);
+  padding: 0.26vw 0;
+}
+.fetch-flight-con .ff-body-con .ffc-m-item {
+  font: normal normal normal 1.042vw/1.042vw var(--font-Jotia);
+  padding: 0.26vw 0;
+}
+.fetch-flight-con .ff-body-con .ffc-m-b-item {
+  font: normal normal 300 1.042vw/1.042vw var(--font-Jotia);
+  padding: 0.26vw 0;
+}
+.fetch-flight-con .ff-body-con .ffc-l-item {
+  font: normal normal 300 1.542vw/1.542vw var(--font-Jotia);
+  padding: 0.26vw 0;
+}
+.fetch-flight-con .ff-body-con .dgc-item {
+  padding-left: 4.563vw;
+}
+.fetch-flight-con .ff-body-con .ff-bl-con {
+  width: 62.5vw;
+}
+.fetch-flight-con .ff-body-con .ff-bl-con .bs-con {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  background-color: #fff;
+  padding: 1.042vw;
+  margin-bottom: 2.083vw;
+  border-radius: 0.26vw;
+}
+.fetch-flight-con .ff-body-con .ff-bl-con .bf-con {
+  background-color: #fff;
+  padding: 0 1.042vw;
+  border-radius: 0.26vw;
+}
+.fetch-flight-con .ff-body-con .ff-bl-con .bf-con .bf-con-head {
+  border-bottom: 0.052vw solid #ccc;
+  padding: 1.042vw 0 0.521vw;
+}
+.fetch-flight-con .ff-body-con .ff-bl-con .bf-con .bf-con-body {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  padding: 1.042vw 0;
+  border-bottom: 0.052vw solid #ccc;
+}
+.fetch-flight-con .ff-body-con .ff-br-con {
+  width: 20.833vw;
+}
+.fetch-flight-con .ff-body-con .ff-br-con .bp-con {
+  background-color: #fff;
+  padding: 1.042vw;
+  border-radius: 0.26vw;
+}
+.fetch-flight-con .ff-body-con .ff-br-con .bpd-con {
+  margin-top: 2.084vw;
+  background-color: #fff;
+  padding: 0.521vw 1.042vw 1.042vw;
+}
+.fetch-flight-con .ff-body-con .ff-br-con .dwd-btn {
+  padding: 0.522vw 2.083vw;
+  border-radius: 0.26vw;
+  margin-top: 2.083vw;
+  border: 0;
+  background-color: #fff;
+}/*# sourceMappingURL=FetchBooking.css.map */

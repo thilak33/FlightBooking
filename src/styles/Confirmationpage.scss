@@ -1,0 +1,64 @@
+.cp-con{
+    margin: 5vw 0;
+    --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+    background-color: #fff;
+    width: 52.083vw;
+    border-radius: 1.042vw;
+    .cp-alert-con{
+        // padding: 3.125vw;
+        // background-color: #fff;
+        .cp-status-con{
+            padding: 2.083vw;
+            text-align: center;
+            font:normal normal normal 1.49vw/1.542vw var(--font-Jotia);
+            border-bottom: 1px solid #ccc;
+        }
+        .cp-dad-con{
+            display: flex;
+        }
+        .bid-con{
+            display: flex;
+            align-items: center;
+            padding: 2.083vw;
+            width: 50%;
+            // border-right: 1px solid #ccc;
+            .bid-l{
+                font:normal normal 300 0.99vw/1.542vw var(--font-Jotia);
+            }
+            .bid-r{
+                font:normal normal normal 0.99vw/1.542vw var(--font-Jotia);
+                width: 2.604vw;
+            }
+        }
+        .btn-con{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            .cp-btn{
+                padding: 1.042vw 1.042vw;
+                color:rgb(96,96,96);
+                background-color: #fff;
+                border: 1px solid #ccc;
+                border-radius: 0.26vw;
+                font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+                margin-right: 1.042vw;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+        .cp-alert-sucesss{
+            color: #4BB543;
+            border:0.052vw solid #4BB543;
+            font:normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+        }
+        .cp-alert-failed{
+            color: #b50000;
+            border:1px solid #ccc;
+            font:normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+            text-align: center;
+            padding: 2.083vw 0;
+        }   
+    }
+}

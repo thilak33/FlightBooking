@@ -1,0 +1,8 @@
+.alert-con {
+  --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  justify-content: center;
+  color: #b50000;
+  border-radius: 0.26vw;
+  margin-bottom: 1.042vw;
+}/*# sourceMappingURL=Alert.css.map */

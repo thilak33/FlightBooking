@@ -1,0 +1,231 @@
+.passenger-d-con {
+  --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  padding: 3vw 12.208vw;
+}
+.passenger-d-con .pd-title {
+  margin-bottom: 1.042vw;
+  font: normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+}
+.passenger-d-con .pass-accord-item {
+  margin-bottom: 2.046vw;
+  background-color: #fff;
+  border-radius: 0.26vw;
+  border: none;
+  padding: 0 1.042vw;
+}
+.passenger-d-con .pass-accord-item .pass-accord-header {
+  background-color: #fff;
+  border-radius: 0.26vw;
+  padding: 1.042vw 0;
+}
+.passenger-d-con .pass-accord-item .next-step-alert {
+  font: normal normal normal 0.764vw/0.766vw var(--font-Jotia);
+  padding: 1.043vw 0;
+  color: #b50000;
+  text-align: center;
+  background-color: #fff;
+  border-top: 0.052vw solid #ccc;
+}
+.passenger-d-con .pass-accord-item .cord-add-d-btn {
+  padding: 0.521vw 1.042vw;
+  border: 0.052vw solid #ccc;
+  border-radius: 0.26vw;
+  cursor: pointer;
+}
+.passenger-d-con .pass-accord-item .pass-accord-body {
+  background-color: #fff;
+}
+.passenger-d-con .pd-form .pd-form-title {
+  font: normal normal normal 1.25vw/1.3vw var(--font-Jotia);
+  margin-bottom: 1.563vw;
+}
+.passenger-d-con .pd-form .pd-form-tdesc {
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  margin-bottom: 1.563vw;
+}
+.passenger-d-con .pd-form .lr-f-title {
+  margin-bottom: 1.042vw;
+  font-family: var(--font-Jotia);
+}
+.passenger-d-con .pd-form .pd-input-item {
+  font: normal normal normal 0.764vw/0.766vw var(--font-Jotia);
+  border: 0.052vw solid #ccc;
+  border-radius: 0.26vw;
+  margin-right: 1.042vw;
+  margin-bottom: 1.042vw;
+  padding: 0.521vw;
+}
+.passenger-d-con .pd-form .pd-input {
+  border: none;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  width: 20.687vw;
+}
+.passenger-d-con .pd-form .pd-input::-moz-placeholder {
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+}
+.passenger-d-con .pd-form .pd-input:-ms-input-placeholder {
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+}
+.passenger-d-con .pd-form .pd-input::placeholder {
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+}
+.passenger-d-con .pd-form .pd-input:focus {
+  border-color: transparent !important;
+  outline: none;
+}
+.passenger-d-con .pd-form .pd-input:focus::-moz-placeholder {
+  display: none;
+}
+.passenger-d-con .pd-form .pd-input:focus:-ms-input-placeholder {
+  display: none;
+}
+.passenger-d-con .pd-form .pd-input:focus::placeholder {
+  display: none;
+}
+.passenger-d-con .pd-form .alert-border {
+  border: 1px solid #b50000;
+}
+.passenger-d-con .pd-form .dblock {
+  display: block;
+}
+.passenger-d-con .pd-form .dnone {
+  display: none;
+}
+.passenger-d-con .pd-form .ishow {
+  height: 2.083vw;
+}
+.passenger-d-con .pd-form .ihide {
+  height: 2.846vw;
+}
+.passenger-d-con .pd-form .radio-heading {
+  margin-bottom: 1.043vw;
+}
+.passenger-d-con .pd-form .select-radio-con {
+  display: flex;
+  margin-bottom: 1.042vw;
+}
+.passenger-d-con .pd-form .select-radio-con .select-radio {
+  border: 0.052vw solid #ccc;
+  border-radius: 0.26vw;
+  padding: 1.042vw 1.042vw;
+  margin-right: 0.521vw;
+}
+.passenger-d-con .pd-form .select-radio-con .select-radio .select-input {
+  margin: 0;
+}
+.passenger-d-con .pd-form .select-radio-con .select-radio .select-label {
+  margin-left: 0.521vw;
+}
+.passenger-d-con .pd-form .select-radio-con .select-radio:last-child {
+  margin-right: 0;
+}
+.passenger-d-con .pd-btn {
+  --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  border: 0.052vw solid #ccc;
+  padding: 0.625vw 1.042vw;
+  border-radius: 0.26vw;
+  background-color: transparent;
+  width: 20.833vw;
+  height: 3.991vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+.passenger-d-con .trip-summary-con {
+  border: 0.052vw solid #ccc;
+  border-radius: 1.302vw;
+  background-color: #fff;
+}
+.passenger-d-con .trip-summary-con .pd-ts-title {
+  padding: 1.042vw 0;
+  text-align: center;
+}
+.passenger-d-con .trip-summary-con .pd-ts-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.042vw 1.043vw;
+}
+.passenger-d-con .trip-summary-con .pd-ts-item {
+  margin-bottom: 0.26vw;
+}
+.passenger-d-con .trip-summary-con .pd-fd-con .pd-ts-body {
+  border-top: 0.052vw solid #ccc;
+  border-bottom: 0.052vw solid #ccc;
+  padding: 0 1.043vw 1.043vw;
+}
+.passenger-d-con .trip-summary-con .pd-fd-con .pd-ts-body .pd-ts-body-item {
+  margin-top: 1.043vw;
+  margin-bottom: 1.043vw;
+}
+.passenger-d-con .trip-summary-con .pd-fd-con .pd-context {
+  font: normal normal normal 1.303vw/1.569vw var(--font-Jotia);
+  margin-bottom: 1.042vw;
+}
+.passenger-d-con .trip-summary-con .pd-fd-con .flightline {
+  border-top: 0.052vw solid #ccc;
+  width: 10.417vw;
+  margin: 0 2.084vw;
+}
+.passenger-d-con .cd-con {
+  background-color: #fff;
+  padding: 1.042vw;
+}
+.passenger-d-con .cd-input-item {
+  width: 20.687vw;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  height: 4.167vw;
+}
+.passenger-d-con .cd-input-item-mr {
+  width: 20.687vw;
+  margin-right: 1.042vw;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  height: 4.167vw;
+}
+.passenger-d-con .cd-innput-label {
+  align-items: center;
+  display: flex;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  opacity: 0.65;
+}
+.passenger-d-con .prcd-btn {
+  padding: 1.423vw 5.208vw;
+  background-color: #fff;
+  border: 0.052vw solid #ccc;
+  border-radius: 0.26vw;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  margin-top: 2.083vw;
+}
+.passenger-d-con .dbpass-btn {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  height: 4.167vw;
+  border-radius: 0.26vw;
+  width: 15.624vw;
+  margin-bottom: 1.042vw;
+  padding: 0 0.521vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.passenger-d-con .dropdown-toggle::after {
+  display: none;
+}
+.passenger-d-con .arrow {
+  border: solid black;
+  border-width: 0 0.156vw 0.156vw 0;
+  display: inline-block;
+  padding: 0.156vw;
+}
+.passenger-d-con .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.passenger-d-con .pass-bm {
+  display: flex;
+  margin-bottom: 1.042vw;
+}/*# sourceMappingURL=Passengerdetails.css.map */

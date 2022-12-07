@@ -1,0 +1,58 @@
+// flight item 
+.flight-item-con{
+    padding: 2.604vw 2.042vw;
+    --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+    .flight-item-title{
+        margin-bottom: 2.042vw;
+        font:normal normal  2.708vw/3vw var(--font-Jotia);
+        color: #4a525d;
+    }
+    .flight-item{
+        font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        border:0.052vw solid #ccc;
+        padding: 1.042vw;
+        display: grid;
+        grid-template-columns: 20% 40% 30% 10%;
+        border-radius: 0.26vw;
+        margin-bottom: 0.521vw;
+        background-color: #fff;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        .details-item{
+            margin-bottom: 0.521vw;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        .airways-details{
+            margin-right: 1.042vw;
+        }
+        .td-details{
+            display: flex;
+            justify-content: space-between;
+        }
+        .journey-line{
+            border-top:0.052vw solid #ccc;
+            width:15.625vw;
+            margin: 0 0.521vw;
+        }
+        .book-btn{
+            border:none;
+            padding: 0.625vw 1.042vw;
+            border-radius: 0.26vw;
+        }
+    }
+    .undo-alert-con{
+        border: 0.052vw solid #ccc;
+        padding: 1.343vw 2.043vw;
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff;
+        font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        border-radius: 2.083vw;
+        position: fixed;
+        bottom: 1.042vw;
+        width: 36.458vw;
+    }
+}

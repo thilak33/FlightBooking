@@ -1,0 +1,68 @@
+.dash-con {
+  --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+  padding: 3vw 5vw 0;
+}
+.dash-con .d-c-m {
+  font: normal normal normal 1.25vw/2vw var(--font-Jotia);
+}
+.dash-con .dash-con-title {
+  margin-bottom: 1.042vw;
+  font: normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+}
+.dash-con .dash-con-body {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.dash-con .dash-con-body .prof-con {
+  background-color: #fff;
+  padding: 1.042vw;
+  border-radius: 1.083vw;
+  width: 30.833vw;
+}
+.dash-con .dash-con-body .prof-con .prof-con-header {
+  display: flex;
+  justify-content: space-between;
+}
+.dash-con .dash-con-body .prof-con .prof-con-header .prof-con-title {
+  font: normal normal 300 1.667vw/1.667vw var(--font-Jotia);
+}
+.dash-con .dash-con-body .prof-con .prof-con-header .edud-btn {
+  padding: 0.26vw 1.042vw;
+  border: 0.052vw solid #ccc;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  background-color: transparent;
+  border-radius: 0.26vw;
+}
+.dash-con .dash-con-body .prof-con .prof-con-body {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font: normal normal normal 0.99vw/1.5vw var(--font-Jotia);
+  padding: 1.042vw 0 0;
+}
+.dash-con .dash-con-body .bk-con {
+  background-color: #fff;
+  padding: 1.042vw;
+  border-radius: 1.083vw;
+  margin-right: 2.083vw;
+}
+.dash-con .dash-con-body .bk-con .bk-con-title {
+  font: normal normal 300 1.667vw/1.667vw var(--font-Jotia);
+}
+.dash-con .dash-con-body .bk-con .bk-con-body {
+  padding-top: 1.042vw;
+}
+.dash-con .dash-con-body .bk-con .bk-con-body .bk-b-item {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  border-bottom: 0.052vw solid #ccc;
+  padding: 1.042vw;
+}
+.dash-con .dash-con-body .bk-con .bk-con-body .bk-b-item:first-child {
+  border-top: 0.052vw solid #ccc;
+}
+.dash-con .dash-con-body .bk-con .bk-con-body .bk-b-item .dd-con {
+  display: flex;
+  align-items: center;
+  font: normal normal 300 1.4vw/1.458vw var(--font-Jotia);
+  margin-right: 2.083vw;
+}/*# sourceMappingURL=Bookings.css.map */

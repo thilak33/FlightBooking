@@ -1,0 +1,59 @@
+.cp-con {
+  margin: 5vw 0;
+  --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+  background-color: #fff;
+  width: 52.083vw;
+  border-radius: 1.042vw;
+}
+.cp-con .cp-alert-con .cp-status-con {
+  padding: 2.083vw;
+  text-align: center;
+  font: normal normal normal 1.49vw/1.542vw var(--font-Jotia);
+  border-bottom: 1px solid #ccc;
+}
+.cp-con .cp-alert-con .cp-dad-con {
+  display: flex;
+}
+.cp-con .cp-alert-con .bid-con {
+  display: flex;
+  align-items: center;
+  padding: 2.083vw;
+  width: 50%;
+}
+.cp-con .cp-alert-con .bid-con .bid-l {
+  font: normal normal 300 0.99vw/1.542vw var(--font-Jotia);
+}
+.cp-con .cp-alert-con .bid-con .bid-r {
+  font: normal normal normal 0.99vw/1.542vw var(--font-Jotia);
+  width: 2.604vw;
+}
+.cp-con .cp-alert-con .btn-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.cp-con .cp-alert-con .btn-con .cp-btn {
+  padding: 1.042vw 1.042vw;
+  color: rgb(96, 96, 96);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.26vw;
+  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+  margin-right: 1.042vw;
+}
+.cp-con .cp-alert-con .btn-con .cp-btn:last-child {
+  margin-right: 0;
+}
+.cp-con .cp-alert-con .cp-alert-sucesss {
+  color: #4BB543;
+  border: 0.052vw solid #4BB543;
+  font: normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+}
+.cp-con .cp-alert-con .cp-alert-failed {
+  color: #b50000;
+  border: 1px solid #ccc;
+  font: normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+  text-align: center;
+  padding: 2.083vw 0;
+}/*# sourceMappingURL=Confirmationpage.css.map */

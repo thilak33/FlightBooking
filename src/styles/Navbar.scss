@@ -1,0 +1,87 @@
+.header{
+    background-color: #fff;
+    --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.042vw;
+    align-items: center;
+    font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+    .h-item{
+        font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+    }
+    .h-auth{
+        color: black;
+        display: flex;
+        .h-auth-btn{
+            border:none;
+            padding: 0.300vw 0;
+            font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+            background-color: transparent;
+            color: black;
+            text-decoration: none;
+        }
+        .h-login{
+            border-right: 0.052vw solid #ccc;
+            padding-right: 0.26vw;
+        }
+        .h-register{
+            padding-left: 0.26vw;
+        }
+        .myprofile-con{
+            .my-profile-select-con{
+                padding: 0.52vw;
+            }
+            .myprofile-displayvalue{
+                border-radius: 50%;
+                color: #fff;
+                background-color: #6c757d;
+                padding: 1.042vw;
+                cursor: pointer;
+            }
+            .my-profile-item{
+                padding: 0.26vw;
+                border-radius: 0.26vw;
+                font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+                &:hover{
+                    background-color: #ccc;
+                    cursor: pointer;
+                }
+            }
+        }
+        .dropdown-toggle::after{
+            display: none;
+        }
+    }
+    .search-display{
+        display: flex;
+        align-items: center;
+        border:1px solid #ccc;
+        border-radius:2.042vw;
+        padding: 0.521vw;
+        .place-con{
+            display: flex;
+            align-items: center;
+            padding: 0.521vw 1.042vw ;
+            border-right: 0.052vw solid #ccc;
+        }
+        .date-con{
+            padding: 0.521vw 1.042vw ;
+            border-right: 0.052vw solid #ccc;
+        }
+        .pass-con{
+            padding: 0.521vw 1.042vw ;
+            border-right: 0.052vw solid #ccc;
+        }
+        .modify-search-con{
+            padding: 0.521vw 1.042vw ;
+        }
+        .s-d-item{
+            font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        }
+    }
+
+}
