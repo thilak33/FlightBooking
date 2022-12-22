@@ -1,10 +1,9 @@
 import React from 'react'
 import '../styles/Alert.css'
 
-const Alert = (props) => {
-    const {error} = props
+const Alert = ({error,primary}) => {
   return (
-    <div className='alert-con'>
+    <div className={`alert-con ${primary}`}>
        <div>{error}</div>
     </div>
   )

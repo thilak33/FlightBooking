@@ -1,0 +1,81 @@
+.lr-con{
+    --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+    font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+    display: flex;
+    justify-content: center;
+    margin-top: 3.125vw;
+    margin-bottom: 3.125vw;
+    .lr-f-title{
+        margin-bottom: 1.042vw;
+        font:normal normal normal 1.99vw/2.042vw var(--font-Jotia);
+    }
+    .lr-f-body{
+        background-color: #fff;
+        padding: 3.125vw;
+        border-radius: 2.083vw;
+        .lr-form-item{
+            margin-bottom: 1.042vw;
+        }
+        .lr-link-con{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .lr-context{
+                font:normal normal normal 1.303vw/1.569vw var(--font-Jotia);
+                margin-bottom: 1.042vw;
+            }
+            .lr-link-btn{
+                font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+                color: #212529;
+            }
+        }
+        .part-con{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 1.042vw;
+            padding-top: 2.084vw;
+            border-bottom: 0.052vw solid #ccc;
+            .part-con-title{
+                width:24.652vw;
+            }
+        }
+        .radio-con{
+            height: 4.167vw;
+            .rc-title{
+                margin-top: 0.521vw;
+                margin-bottom: 0.521vw;
+            }
+        }
+        .select-radio-con{
+            display: flex;
+            margin-bottom: 1.042vw;
+            .select-radio{
+                // border: 0.052vw solid #ccc;
+                // border-radius: 0.26vw;
+                // padding: 1.042vw 1.042vw;
+                min-height:1.042vw;
+                padding: 0;
+                margin: 0;
+                margin-right: 0.521vw;
+                .select-input{
+                    margin: 0;
+                }
+                .select-label{
+                    margin-left: 0.521vw;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+            .form-check-input:checked {
+                background-color: rgb(96,96,96);
+                border-color: rgb(96,96,96);
+            }
+        }
+        .btn-con{
+            display: flex;
+            justify-content: center;
+            margin-top: 2.083vw;
+        }
+    }
+}

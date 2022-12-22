@@ -42,10 +42,33 @@
         .alert-border{
             border:1px solid #b50000;
         }
-        .lr-input{
+        .input-primary{
             font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
             width:30.652vw;
             height: 4.167vw;
+            padding: 1.502vw 1vw 0.526vw 0.526vw;
+        }
+        .input-secondary{
+            font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+            width:14.805vw;
+            height: 4.167vw;
+            padding: 1.502vw 1vw 0.526vw 0.526vw;
+        }
+        .input-secondary-mr{
+            font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+            width:14.805vw;
+            height: 4.167vw;
+            padding: 1.502vw 1vw 0.526vw 0.526vw;
+            margin-right: 1.042vw;
+        }
+        .input-label-primary{
+            padding: 1.4vw 0.526vw;
+            font: normal normal normal 0.99vw/1.043vw var(--font-Jotia);
+        }
+        .input-label-secondary{
+            width:14.805vw;
+            padding: 1.4vw 0.526vw;
+            font: normal normal normal 0.99vw/1.043vw var(--font-Jotia);
         }
         .lr-mutli-input{
             // width:20.687vw;
@@ -67,20 +90,20 @@
             display: flex;
             align-items: center;
         }
-        .dropdown-toggle::after {
-            display: none;
-        }
-        .dd-menu{
-            height: 10vw;
-            width:29.687vw;
-            overflow-y: scroll;
-        }
-        .live-dd{
-            width:29.687vw;
-        }
-        .state-item{
-            font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
-        }
+        // .dropdown-toggle::after {
+        //     display: none;
+        // }
+        // .dd-menu{
+        //     height: 10vw;
+        //     width:29.687vw;
+        //     overflow-y: scroll;
+        // }
+        // .live-dd{
+        //     width:29.687vw;
+        // }
+        // .state-item{
+        //     font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        // }
         .gender-title{
             margin-bottom: 0.542vw;
         }

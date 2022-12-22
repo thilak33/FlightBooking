@@ -5,40 +5,19 @@ body {
 .home-con {
   --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
   background-color: #fff;
-  margin-top: 6vw;
   border-radius: 1.302vw;
+  background-color: #f2f3fa;
 }
-.home-con .hc-nav {
-  border: 0;
-  border-top-left-radius: 1.302vw;
+.home-con .sf-con {
+  margin-top: 6vw;
+  display: flex;
+  justify-content: center;
 }
-.home-con .home-tabs {
-  padding: 2.084vw;
-}
-.home-con .home-tab-head {
-  width: 50%;
-}
-.home-con .home-tab-head .home-th-item {
-  font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
-  text-align: center;
-  padding: 1.042vw;
-  color: rgb(96, 96, 96);
-  background-color: #fff;
-  border: 0;
-  margin: 0;
-  cursor: pointer;
-}
-.home-con .home-tab-head .home-th-item-l {
-  border-top-left-radius: 1.302vw;
-  border-top-right-radius: 0;
-}
-.home-con .home-tab-head .home-th-item-r {
-  border-top-right-radius: 1.302vw;
-  border-top-left-radius: 0;
-}
-.home-con .home-tab-head .home-th-item.active {
-  background-color: rgb(96, 96, 96);
-  color: #fff;
+.home-con .img-con img {
+  --fimgwidth:41.667vw;
+  --fimgheight:31.25vw;
+  width: var(--fimgwidth);
+  height: var(--fimgheight);
 }
 
 .search-flights-con {
@@ -118,6 +97,7 @@ body {
 }
 
 .trip-details-con {
+  cursor: pointer;
   --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
 }
 .trip-details-con .trip-details-btn {
@@ -189,6 +169,7 @@ body {
 .date-select-con .DateInput_input {
   font: normal normal normal 0.99vw/2.042vw var(--font-Jotia) !important;
   padding: 0;
+  background-color: #f2f3fa;
 }
 .date-select-con .DateRangePickerInput__withBorder {
   border: none;
@@ -229,8 +210,6 @@ body {
   border-left: none;
   padding: 0.521vw;
   font-family: var(--font-Jotia);
-  border-top-right-radius: 0.26vw;
-  border-bottom-right-radius: 0.26vw;
 }
 .passengercount-con .pc-dropdown-btn .pc-placeholder {
   font: normal normal normal 0.764vw/0.766vw var(--font-Jotia);

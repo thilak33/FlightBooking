@@ -10,14 +10,14 @@
 .passenger-d-con .pass-accord-item {
   margin-bottom: 2.046vw;
   background-color: #fff;
-  border-radius: 0.26vw;
+  border-radius: 0.546vw;
   border: none;
-  padding: 0 1.042vw;
+  padding: 0 2.042vw;
 }
 .passenger-d-con .pass-accord-item .pass-accord-header {
   background-color: #fff;
   border-radius: 0.26vw;
-  padding: 1.042vw 0;
+  padding: 1.542vw 0;
 }
 .passenger-d-con .pass-accord-item .next-step-alert {
   font: normal normal normal 0.764vw/0.766vw var(--font-Jotia);
@@ -35,6 +35,7 @@
 }
 .passenger-d-con .pass-accord-item .pass-accord-body {
   background-color: #fff;
+  padding: 1.043vw 0;
 }
 .passenger-d-con .pd-form .pd-form-title {
   font: normal normal normal 1.25vw/1.3vw var(--font-Jotia);
@@ -43,6 +44,7 @@
 .passenger-d-con .pd-form .pd-form-tdesc {
   font: normal normal normal 0.99vw/1.042vw var(--font-Jotia);
   margin-bottom: 1.563vw;
+  width: 40vw;
 }
 .passenger-d-con .pd-form .lr-f-title {
   margin-bottom: 1.042vw;
@@ -172,7 +174,11 @@
 }
 .passenger-d-con .cd-con {
   background-color: #fff;
-  padding: 1.042vw;
+  padding: 2.042vw;
+  border-radius: 1.043vw;
+}
+.passenger-d-con .cd-con .dd-con {
+  margin-bottom: 1.043vw;
 }
 .passenger-d-con .cd-input-item {
   width: 20.687vw;
@@ -228,4 +234,9 @@
 .passenger-d-con .pass-bm {
   display: flex;
   margin-bottom: 1.042vw;
+}
+.passenger-d-con .btn-con {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.043vw;
 }/*# sourceMappingURL=Passengerdetails.css.map */

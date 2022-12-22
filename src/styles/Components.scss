@@ -1,0 +1,249 @@
+:root {
+    --primaryheight: 4.167vw;
+}
+.input-com{
+    .input-primary{
+        font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        width:30.652vw;
+        height: var(--primaryheight);
+        padding: 1.502vw 1vw 0.526vw 0.526vw;
+    }
+    .input-secondary{
+        font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        width:14.805vw;
+        height: 4.167vw;
+        padding: 1.502vw 1vw 0.526vw 0.526vw;
+    }
+    .input-secondary-mr{
+        font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        width:14.805vw;
+        height: 4.167vw;
+        padding: 1.502vw 1vw 0.526vw 0.526vw;
+        margin-right: 1.042vw;
+    }
+    .input-passenger{
+        font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        width:20.805vw;
+        height: 4.167vw;
+        padding: 1.502vw 1vw 0.526vw 0.526vw;
+    }
+    .input-passenger-mr{
+        font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        width:20.805vw;
+        height: 4.167vw;
+        padding: 1.502vw 1vw 0.526vw 0.526vw;
+        margin-right: 1.042vw;
+    }
+    .input-label-primary{
+        padding: 1.4vw 0.526vw;
+        font: normal normal normal 0.99vw/1.043vw var(--font-Jotia);
+    }
+    .input-label-secondary{
+        width:14.805vw;
+        padding: 1.4vw 0.526vw;
+        font: normal normal normal 0.99vw/1.043vw var(--font-Jotia);
+    }
+}
+
+// drop-down
+.dd-com{
+    --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
+    font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+    .dropdown-toggle::after {
+        display: none;
+    }
+    .primary{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:14.805vw;
+        height: var(--primaryheight);
+        border: 1px solid #ccc;
+        border-radius: 0.521vw;
+        padding: 0.526vw;
+
+    }
+    .secondary{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:30.652vw;
+        height: var(--primaryheight);
+        border: 1px solid #ccc;
+        border-radius: 0.521vw;
+        padding: 0.526vw;
+    }
+    .caret{
+        width: 1.042vw;
+        height: 1.042vw;
+    }
+    .up-caret{
+        display: none;
+    }
+    .show .down-caret{
+        display: none;
+    }
+    .show .up-caret{
+        display: block;
+    }
+    .dd-menu-primary{
+        min-width:14.805vw;
+        max-height: 13vw;
+        border:1px solid #ccc;
+        border-radius: 0.526vw;
+        overflow-y: scroll;
+        .dd-m-item{
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+            padding:0.526vw;
+            .dd-m-i-select{
+                width: 0.521vw;
+                height: 0.521vw;
+            }
+        }
+    }
+    .dd-menu-secondary{
+        width:30.652vw;
+        max-height: 13vw;
+        border:1px solid #ccc;
+        border-radius: 0.526vw;
+        overflow-y: scroll;
+        .dd-m-item{
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+            padding:0.526vw;
+            .dd-m-i-select{
+                width: 0.521vw;
+                height: 0.521vw;
+            }
+        }
+    }
+}
+
+// btn
+
+.btn-com{
+    border:1px solid #ccc;
+    border-radius: 0.521vw;
+    background-color: #fff;
+    font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+    .logo{
+        width: 1.042vw;
+        height: 1.042vw;
+        margin-left: 0.542vw;
+    }
+    .transform-right{
+        transform: rotate(90deg);
+    }
+}
+.btn-com-primary{
+    width: 10.833vw;
+    height: var(--primaryheight);
+}
+.btn-com-secondary{
+    width: 20.833vw;
+    height: var(--primaryheight);
+}
+.btn-com-download{
+    width: 20.833vw;
+    border-radius: 1.563vw;
+    height: var(--primaryheight);
+    border: 0;
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: center;
+    .dwd-logo{
+        width: 1.042vw;
+        height: 1.042vw;
+        margin-left: 1.042vw;
+    }
+}
+.btn-com-searchflights{
+    width: 10.833vw;
+    height: var(--primaryheight);
+    border-radius: 0;
+    border-top-right-radius: 0.26vw;
+    border-bottom-right-radius: 0.26vw;
+    border:0.052vw solid #ccc;
+    border-left: 0;
+    background-color: #f2f3fa;
+}
+
+
+
+// filter dropdown
+
+.fdd-com{
+    .dropdown-toggle::after {
+        display: none;
+    }
+    .ffd-primary{
+        width: 16.667vw;
+        height: var(--primaryheight);
+        border:0.052vw solid #ccc;
+        padding: 0.521vw;
+    }
+    .br{
+        border-top-left-radius: 0.26vw;
+        border-bottom-left-radius: 0.26vw;
+        border-right: 0;
+    }
+    .fdd-placeholder{
+        font:normal normal normal 0.764vw/0.766vw var(--font-Jotia);
+    }
+    .fdd-value{
+        font:normal normal normal 0.99vw/2.083vw var(--font-Jotia);
+        display: flex;
+        justify-content: space-between;
+    }
+    .caret{
+        width: 1.042vw;
+        height: 1.042vw;
+    }
+    .up-caret{
+        display: none;
+    }
+    .show .down-caret{
+        display: none;
+    }
+    .show .up-caret{
+        display: block;
+    }
+    .fdd-menu-primary{
+        width:33.334vw;
+        height: 22vw;
+        border:1px solid #ccc;
+        border-radius: 0.526vw;
+        overflow-y: scroll;
+        .dd-m-item{
+            cursor: pointer;
+            font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+            padding: 1.043vw;
+            border-bottom: 0.052vw solid #ccc;
+            &:last-child{
+                border-bottom: none;
+            }
+            .dd-m-i-select{
+                width: 0.521vw;
+                height: 0.521vw;
+            }
+            .d-city{
+                font: normal normal normal 1.198vw/1.406vw arial;
+                margin-bottom: 0.521vw;
+            }
+            .d-code{
+                font: normal normal normal 1.198vw/1.406vw arial;
+            }
+            .d-country{
+                font: normal normal normal 1.198vw/1.406vw arial;
+            }
+            .d-name{
+                font: normal normal normal 0.75vw/0.75vw arial;
+            } 
+        }
+    }
+}

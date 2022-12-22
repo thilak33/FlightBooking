@@ -1,6 +1,7 @@
 .book-sum-con{
     --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
-    margin: 5.208vw 10.417vw;
+    padding: 5.208vw 10.417vw;
+    background-color: #f2f3fa;
     .bsc-title{
         margin-bottom: 1.042vw;
         font:normal normal normal 1.99vw/2.042vw var(--font-Jotia);
@@ -115,8 +116,32 @@
     margin-top: 2.083vw;
 }
 
-/////////////////////////
-
-// .try-con{
+.modifyalert{
+    // width:20vw;
+    .ma-header{
+        border:0;
+        padding: 1.042vw;
+    }
+    .ma-body{
+        border:0;
+        padding: 1.042vw;
+        font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+        text-align: center;
+    }
+    .ma-footer{
+        border:0;
+        border-top:1px solid #ccc;
+        padding: 1.042vw;
+        justify-content: center;
+        display: flex;
+        .ma-btn{
+            border:1px solid #ccc;
+            border-radius: 0.521vw;
+            background-color: #fff;
+            font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+            width: 10.833vw;
+            height: 4.167vw;
+        }
+    }
     
-// }
+}

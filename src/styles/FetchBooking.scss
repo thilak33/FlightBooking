@@ -29,18 +29,12 @@
         }
         .ff-bl-con{
             width: 62.5vw;
-            .bs-con{
-                display: grid;
-                grid-template-columns: 33.33% 33.33% 33.33%;
-                background-color: #fff;
-                padding: 1.042vw; 
-                margin-bottom: 2.083vw;
-                border-radius: 0.26vw;
-            }
+            margin-bottom: 2.083vw;
             .bf-con{
                 background-color: #fff;
-                padding: 0 1.042vw;
-                border-radius: 0.26vw;
+                padding:1vw 2.042vw 2.042vw;
+                border-radius: 1.563vw;
+                margin-bottom: 2.083vw;
                 .bf-con-head{
                     border-bottom: 0.052vw solid #ccc;
                     padding:1.042vw 0 0.521vw;
@@ -52,18 +46,39 @@
                     border-bottom: 0.052vw solid #ccc;
                 }
             }
-        }
-        .ff-br-con{
-            width: 20.833vw;
             .bp-con{
                 background-color: #fff;
-                padding: 1.042vw;
-                border-radius: 0.26vw;
+                padding: 2.042vw;
+                border-radius: 1.563vw;
             }
             .bpd-con{
                 margin-top: 2.084vw;
                 background-color: #fff;
-                padding: 0.521vw 1.042vw 1.042vw;
+                padding: 2.042vw;
+                border-radius: 1.563vw;
+                margin-bottom: 2.083vw;
+                .d-g{
+                    display: grid;
+                    grid-template-columns: 30% 20% 20% 30%;
+                }
+            }
+        }
+        .ff-br-con{
+            width: 20.833vw;
+            .bs-con{
+                // display: grid;
+                // grid-template-columns: 33.33% 33.33% 33.33%;
+                background-color: #fff;
+                padding: 2.042vw;
+                border-radius: 1.563vw;
+                margin-bottom: 2.083vw;
+                .bs-con-div{
+                    border-bottom: 0.052vw solid #ccc;
+                    padding: 0.26vw 0;
+                    &:last-child{
+                        border-bottom: 0;
+                    }
+                }
             }
             .dwd-btn{
                 padding: 0.522vw 2.083vw;

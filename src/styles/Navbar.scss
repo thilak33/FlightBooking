@@ -1,11 +1,21 @@
 .header{
-    background-color: #fff;
+    // background-color: #fff;
+    background-color: #f2f3fa;
     --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 1.042vw;
     align-items: center;
+    .navbar-brand{
+        cursor: pointer;
+    }
     font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
+    .navbar-icon{
+        width: 1.302vw;
+        height: 1.302vw;
+        margin-left: 0.52vw;
+        margin-right: 0.52vw;
+    }
     .h-item{
         font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
     }
@@ -71,13 +81,19 @@
         .date-con{
             padding: 0.521vw 1.042vw ;
             border-right: 0.052vw solid #ccc;
+            display: flex;
+            align-items: center;
         }
         .pass-con{
             padding: 0.521vw 1.042vw ;
             border-right: 0.052vw solid #ccc;
+            display: flex;
+            align-items: center;
         }
         .modify-search-con{
             padding: 0.521vw 1.042vw ;
+            display: flex;
+            align-items: center;
         }
         .s-d-item{
             font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);

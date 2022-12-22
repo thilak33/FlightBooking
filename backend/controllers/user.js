@@ -58,8 +58,8 @@ const createUser = async (req,res) => {
                     id: user._id
                 }
             }
-            const authtoken = jwt.sign(data,JWT_SECRET)
-            res.status(200).json({authtoken,success:true})
+            const token = jwt.sign(data,JWT_SECRET)
+            res.status(200).json({token,user,success:true})
         }
     } catch (error) {
         res.status(201).json({msg:'Please try again' ,errorStatus:error})
@@ -87,8 +87,8 @@ const authUser = async (req,res) => {
                     id: user._id
                 }
             }
-            const authtoken = jwt.sign(data, JWT_SECRET)
-            res.status(200).json({authtoken,success:true})
+            const token = jwt.sign(data, JWT_SECRET)
+            res.status(200).json({token,user,success:true})
         }
 
     } catch (error) {

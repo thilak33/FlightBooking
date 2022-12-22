@@ -13,7 +13,7 @@ const createPdf =  (req, res) => {
 }
 
 const getPdf = (req, res) => {
-    res.sendFile(`/Users/thilakvoruganti/Desktop/Flights-app/result.pdf`)
+    res.sendFile(`/Users/thilakvoruganti/Desktop/FlightBooking/result.pdf`)
 }
 
 module.exports = {createPdf,getPdf}

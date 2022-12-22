@@ -1,40 +1,49 @@
-import {  Route, BrowserRouter, Routes } from 'react-router-dom';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
-import BookingSummary from './components/BookingSummary';
-import Confirmationpage from './components/Confirmationpage';
-import Dashboard from './components/Dashboard';
-import FetchBooking from './components/FetchBooking';
-import Home from './components/Home';
-import Login from './components/Login';
-import Navbar from './components/Navbar';
-import OnewaySearch from './components/OnewaySearch';
-import Passengerdetails from './components/Passengerdetails';
-import Register from './components/Register';
-import ReturnSearch from './components/ReturnSearch';
-import FlightState from './context/FlightState';
+import BookingSummary from './pages/BookingSummary';
+import Confirmationpage from './pages/Confirmationpage';
+import Dashboard from './pages/Dashboard';
+import FetchBooking from './pages/FetchBooking';
+import Home from './pages/Home';
+import Login from './pages/Auth/Login';
+import Navbar from './pages/Navbar';
+import OnewaySearch from './pages/OnewaySearch';
+import Passengerdetails from './pages/Passengerdetails';
+import Register from './pages/Auth/Register';
+import ReturnSearch from './pages/ReturnSearch';
+// import FlightState from './context/FlightState';
+import { AuthProvider } from './context/Auth';
+import { FlightProvider } from './context/Flight';
+import PrivateRoute from './components/routes/PrivateRoute';
 
 
 
 function App() {
   return (
     <>
-    <FlightState>
-      <BrowserRouter>
-            <Navbar/>
+      <AuthProvider>
+        <FlightProvider>
+        {/* <FlightState> */}
+          <BrowserRouter>
+            <Navbar />
             <Routes>
-              <Route path="/" element={ <Home />} />
-              <Route exact path="/login" element={<Login/>}/>
-              <Route exact path="/register" element={<Register />}/>
-              <Route exact path="/fetchbooking" element={<FetchBooking />}/>
-              <Route exact path="/dashboard" element={<Dashboard />}/>
-              <Route exact path="/owsearch" element={<OnewaySearch />}/>
-              <Route exact path="/rsearch" element={<ReturnSearch />}/>
-              <Route exact path="/passengerdetails" element={<Passengerdetails />}/>
-              <Route exact path="/bookingsummary" element={<BookingSummary />}/>
-              <Route exact path="/confirmation" element={<Confirmationpage />}/>
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/login" element={<Login />} />
+              <Route exact path="/register" element={<Register />} />
+              <Route exact path="/dashboard" element={<PrivateRoute />} >
+                <Route exact path="" element={<Dashboard />} />
+                <Route exact path="fetchbooking/:slug" element={<FetchBooking />} />
+                <Route exact path="bookingsummary" element={<BookingSummary />} />
+                <Route exact path="confirmation/:slug" element={<Confirmationpage />} />
+              </Route>
+              <Route exact path="/owsearch/:slug" element={<OnewaySearch />} />
+              <Route exact path="/rsearch/:slug" element={<ReturnSearch />} />
+              <Route exact path="/passengerdetails" element={<Passengerdetails />} />
             </Routes>
-      </BrowserRouter>
-    </FlightState>
+          </BrowserRouter>
+        {/* </FlightState> */}
+        </FlightProvider>
+      </AuthProvider>
     </>
   );
 }

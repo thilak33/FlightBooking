@@ -2,6 +2,7 @@
     --font-Jotia: Jotia,Verdana,Geneva,sans-serif;
     font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
     padding:3vw 12.208vw;
+    // background-color: #f2f3fa;
     .pd-title{
         margin-bottom: 1.042vw;
         font:normal normal normal 1.99vw/2.042vw var(--font-Jotia);
@@ -9,13 +10,15 @@
     .pass-accord-item{
         margin-bottom: 2.046vw;
         background-color: #fff;
-        border-radius: 0.26vw;
+        border-radius: 0.546vw;
+        // box-shadow: 0vw 0.104vw 0.208vw rgb(0 0 0 / 16%);
+        // box-shadow: 0vw 0.12vw 0.31vw rgb(0 0 0 / 16%);
         border: none;
-        padding:0 1.042vw;
+        padding:0 2.042vw;
         .pass-accord-header{
             background-color: #fff;
             border-radius: 0.26vw;
-            padding:1.042vw  0;
+            padding:1.542vw  0;
         }
         .next-step-alert{
             font:normal normal normal 0.764vw/0.766vw var(--font-Jotia);
@@ -33,6 +36,7 @@
         }
         .pass-accord-body{
             background-color: #fff;
+            padding: 1.043vw 0; 
         }
     }
     .pd-form{
@@ -49,6 +53,7 @@
         .pd-form-tdesc{
             font:normal normal normal 0.99vw/1.042vw var(--font-Jotia);
             margin-bottom: 1.563vw;
+            width: 40vw;
         }
         .lr-f-title{
             margin-bottom: 1.042vw;
@@ -175,7 +180,11 @@
     }
     .cd-con{
         background-color: #fff;
-        padding: 1.042vw;
+        padding: 2.042vw;
+        border-radius: 1.043vw;
+        .dd-con{
+            margin-bottom: 1.043vw;
+        }
     }
     .cd-input-item{
         width:20.687vw;
@@ -231,6 +240,11 @@
     .pass-bm{
         display: flex;
         margin-bottom: 1.042vw;
+    }
+    .btn-con{
+        display: flex;
+        justify-content: center;
+        margin-top: 2.043vw;
     }
     
 }

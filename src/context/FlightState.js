@@ -1,7 +1,8 @@
 import React,{useState,useEffect} from 'react'
 import flightContent from './FlightContext'
 import { saveAs } from 'file-saver';
-
+import { useAuth } from './Auth';
+import axios from 'axios';
 const FlightState = (props) => {
 
     const host = "http://localhost:4000"
@@ -46,6 +47,8 @@ const FlightState = (props) => {
         }
 
     ]
+
+    const [auth] = useAuth()
 
 
     const[historyobject,setHistoryobject] = useState({})
@@ -184,19 +187,13 @@ const FlightState = (props) => {
 
     // createpdf 
     const createPdf = async(bookingid,passengersinfo,tripFlights ) => {
-        const createpdf = await fetch(`${host}/api/v1/createpdf`,{
-            method:'POST',
-            headers:{
-                'Content-type':'application/json',
-            },
-            body: JSON.stringify({ 
+        const createpdf = await axios.post(`/createpdf`,{
                     bookingid:bookingid,
                     passengersinfo:passengersinfo,
                     tripFlights:tripFlights
-                })
           })
-          const createdpdf = await createpdf.json()
-          return  createdpdf
+          const pdf = createpdf.json
+          return  pdf
     }
     const getPdf = async() => {
         const getpdf = await fetch(`${host}/api/v1/getpdf`,{
@@ -216,7 +213,7 @@ const FlightState = (props) => {
             method:'GET',
             headers:{
                 'Content-type':'application/json',
-                'auth-token':localStorage.getItem('token')
+                'auth-token':auth.token
             },
         })
         const getbookingswc = await response.json()
